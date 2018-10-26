@@ -146,6 +146,8 @@ Compiler kann Typen schlussfolgern:
     val p = new Animal {
      override def eat: Unit = println("nomnom")
     }         
+   
+---   
     
 # Case classes    
 * quick lightweightt data structures with little boilerplate
@@ -154,8 +156,28 @@ Compiler kann Typen schlussfolgern:
 * auto-promoted params to fields
 * cloning, case objects
 
+---
+
 # Exceptions
 * exceptions crash your program
 * how to throw exceptions
 * how to catch exceptions
 * define custom exceptions
+
+---
+
+# Packaging and Imports
+* package = a group of definitions under the same name
+* to use a definition:
+  * be in the same package
+  * or import the package
+* best practive - mirror the file structure
+* fully qualified name
+* _package objects_ hold standalone methods/constants, one per package
+* name aliasing at imports
+
+
+    import java.sql.{ Date => SqlDate }
+    import java.{ util => ju }                    
+
+---

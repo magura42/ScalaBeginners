@@ -44,3 +44,5 @@ g
 7src/main/scala/lectures/part2oop/AnonymousClasses.scala,7/7/771b6f337fb6c25ca3910c8f7b8b19058029bf62
 b
 2src/main/scala/lectures/part2oop/CaseClasses.scala,e/1/e1b1f819c8afbab5dad83855de941eebd13586ee
+a
+1src/main/scala/lectures/part2oop/Exceptions.scala,9/a/9adeb35e49968a7b32c07bb71abcee1c57305c1f
